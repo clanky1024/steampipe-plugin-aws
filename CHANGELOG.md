@@ -1,3 +1,10 @@
+## v1.32.0 [2026-07-28]
+
+_Enhancements_
+
+- Added columns `deregistration_protection`, `free_tier_eligible`, `image_allowed`, `last_launched_time`, `source_image_id`, and `source_image_region` to `aws_ec2_ami` and `aws_ec2_ami_shared` tables. ([#2774](https://github.com/turbot/steampipe-plugin-aws/pull/2774)) (Thanks [@StephenKing](https://github.com/StephenKing) for the contribution!)
+- Added column `start_after` to `aws_s3_object` table, which can be used as a query filter to start listing objects after the specified key. ([#2772](https://github.com/turbot/steampipe-plugin-aws/pull/2772)) (Thanks [@OsMikeBl](https://github.com/OsMikeBl) for the contribution!)
+
 ## v1.31.0 [2026-06-01]
 
 _What's new?_
